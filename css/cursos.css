@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: #2E948A;
+    width: 100%;
+    padding: 0 4% 0 4%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo-header{
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+
+#logo-header{
+    max-width: 150px;
+    height: auto;
+}
+
+ul{
+    display: flex; 
+    list-style: none;  
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 3vh;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+li a:hover{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 900;
+    color: #ff4081;
+    font-size: 3vh;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+/****** Section cursos ******/
+h1{
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 1;
+    color: #FF4081;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+h2{
+    font-family: 'ubuntu';
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1;
+    color: #555555;
+    margin-left: 5%;
+}
+
+section{
+    margin: 5%;
+}
+
+.container{
+    display: flex;
+    text-align: left;
+    padding: 5%;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: #c4c4c4;
+}
+
+img{
+    width: 25vw;
+}
+.img{
+    padding-right: 5%;
+}
+
+h3{
+    font-size: 2vw;
+    padding-bottom: 10%;
+    color:#ff4081;
+    font-weight: 900;
+}
+
+a{
+    max-width: 720px;
+    font-size: 1.2vw;
+}
+
+.comecar-agora{
+
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    box-sizing:border-box;
+    width: 25%;
+    margin-top: 7%;
+    border: solid;
+    border-color: #009688;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 60px;
+}
+
+/****** Section footer ******/
+footer{
+    background-color: #2E948A;
+    width: 100%;
+    padding: 0 4% 0 4%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer{
+    display: flex;
+}
+
+#logo-footer{
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+#ul-footer{
+    display: block; 
+    list-style: none;  
+}
+
+#li-footer a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#li-footer a:hover{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 700;
+    color: #ff4081;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#btn{
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    box-sizing:border-box;
+    width: 75%;
+    margin-top: 5%;
+    border: solid;
+    border-color: white;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 60px;
+}
